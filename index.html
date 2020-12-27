@@ -23,12 +23,7 @@
                             Blog
                         </a>
 
-                        <div v-if="isLogged" key="logged" class="login">
-                            <h4>Seja bem vindo {{ userName }}</h4>
-                            <a href="#" v-on:click.prevent="toggleLogin" class="logout bg-danger text-white">Fazer Logout</a>
-                        </div>
-
-                        <a href="#" v-on:click.prevent="toggleLogin" class="login bg-primary text-white" v-else key="notLogged">Fazer login</a>
+                        <a href="#" class="login bg-primary text-white">Fazer login</a>
 
                     </nav>
 
@@ -97,25 +92,6 @@
             </footer>
 
         </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-        <script>
-
-            let app = new Vue({
-                el: '#hcode-blog',
-                data: {
-                   isLogged: false,
-                   userName: 'Mário'
-                },
-                methods: {
-                    toggleLogin() {
-                        this.isLogged = !this.isLogged;s
-                    }
-                }
-            })
-    
-        </script>
 
     </body>
 </html>
