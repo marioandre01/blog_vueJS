@@ -29,6 +29,7 @@ Esse projeto foi desenvolvido através do "Desafio 1 - Criando um blog" do curso
 * Exibir o conteúdo do post apenas até 200 caracteres
 
 O resultado da aplicação pode ser acessado através da seguinte URL:
+[https://myblog-vuejs.netlify.app/](https://myblog-vuejs.netlify.app/)
 
 ## 📋 Tecnologias
 
